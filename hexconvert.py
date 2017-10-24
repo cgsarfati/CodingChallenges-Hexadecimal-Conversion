@@ -17,6 +17,11 @@
 def hex_convert(hex_in):
     """Convert a hexadecimal string, like '1A', into it's decimal equivalent."""
 
+    # HOW TO CONVERT:
+        # Get decimal equiv. of hex from table
+        # Multiply qdigit w/ 16 power of digit's index
+        # Sum all multipliers
+
 
 if __name__ == "__main__":
     import doctest
